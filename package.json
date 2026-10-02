@@ -10,8 +10,8 @@
     "dev": "concurrently -k \"vite --host 127.0.0.1\" \"wait-on http://127.0.0.1:5173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 electron .\"",
     "build:web": "tsc -b && vite build",
     "build": "npm run build:web && electron-builder",
-    "build:mac": "npm run build:web && electron-builder --mac",
-    "build:win": "npm run build:web && electron-builder --win",
+    "build:mac": "npm run build:web && electron-builder --mac --publish never",
+    "build:win": "npm run build:web && electron-builder --win --publish never",
     "preview": "vite preview",
     "typecheck": "tsc -b --pretty false",
     "capture:docs": "npm run build:web && electron scripts/capture-docs.cjs"

@@ -29,8 +29,10 @@ export type DesktopAPI = {
   setLaunchAtLogin: (enabled: boolean) => Promise<AppState>;
   showMain: () => void;
   closePet: (taskId: string) => void;
+  dragPet: (data: { taskId: string; phase: 'start' | 'move' | 'end'; dx?: number; dy?: number }) => void;
   onState: (callback: (state: AppState) => void) => () => void;
   onPetAlert: (callback: (data: { pending: number }) => void) => () => void;
+  onPetBond: (callback: (data: { phase: 'stretch' | 'snap' | 'break'; strength?: number }) => void) => () => void;
 };
 
 declare global { interface Window { desktopAPI: DesktopAPI } }

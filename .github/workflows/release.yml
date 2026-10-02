@@ -18,7 +18,9 @@ jobs:
             command: npm run build:mac
             artifact: release/*.dmg
             name: macOS
-          - os: windows-latest
+          # electron-builder can reliably cross-package NSIS from macOS here;
+          # the Windows runner currently fails before producing the installer.
+          - os: macos-latest
             command: npm run build:win
             artifact: release/*.exe
             name: Windows

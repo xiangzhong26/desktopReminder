@@ -13,7 +13,8 @@
     "build:mac": "npm run build:web && electron-builder --mac",
     "build:win": "npm run build:web && electron-builder --win",
     "preview": "vite preview",
-    "typecheck": "tsc -b --pretty false"
+    "typecheck": "tsc -b --pretty false",
+    "capture:docs": "npm run build:web && electron scripts/capture-docs.cjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

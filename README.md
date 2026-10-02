@@ -23,7 +23,7 @@ MochiMinder 是一款适用于 Windows 和 macOS 的开源桌面提醒工具。�
 
 | 平台 | 安装包 | 系统要求 |
 | --- | --- | --- |
-| Windows | [下载 Windows x64 安装程序](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder%20Setup%200.2.0.exe) | Windows 10/11 64 位 |
+| Windows | [下载 Windows x64 安装程序](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder.Setup.0.2.0.exe) | Windows 10/11 64 位 |
 | macOS Apple Silicon | [下载 arm64 DMG](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder-0.2.0-arm64.dmg) | M1/M2/M3/M4 Mac |
 | macOS Intel | [下载 x64 DMG](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder-0.2.0.dmg) | Intel Mac |
 

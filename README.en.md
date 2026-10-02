@@ -23,7 +23,7 @@ When a reminder is due, its slime runs across the screen with a playful animatio
 
 | Platform | Installer | Requirements |
 | --- | --- | --- |
-| Windows | [Download the Windows x64 installer](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder%20Setup%200.2.0.exe) | 64-bit Windows 10/11 |
+| Windows | [Download the Windows x64 installer](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder.Setup.0.2.0.exe) | 64-bit Windows 10/11 |
 | macOS Apple Silicon | [Download the arm64 DMG](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder-0.2.0-arm64.dmg) | M1/M2/M3/M4 Mac |
 | macOS Intel | [Download the x64 DMG](https://github.com/xiangzhong26/desktopReminder/releases/latest/download/MochiMinder-0.2.0.dmg) | Intel Mac |
 
